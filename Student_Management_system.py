@@ -32,6 +32,9 @@ while op < 6: # while loop to start a loop while the variable op is less than 6
                     Id = 0 # The ID is set to 0 to continue the cycle
                     print("Please enter positive numbers") # shows a message
                     continue # Ask for the ID again
+                elif any(std['ID'] == Id for std in students):
+                    Id = 0
+                    print('ID already exists')
             except ValueError: # in case it is a text string
                 print("Please enter only numeric values") # shows a message
                 continue # Ask for the ID again
