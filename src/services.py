@@ -28,7 +28,7 @@ def search_student(students, ID): # Create a function called search_student and 
             print("Student Found!!") # show this message
 
             print(
-                f"ID: {people['ID']} || Name: {people['Name']} || Age: {people['Age']} || Program: {people['program']} || Status: {people['Status']}"
+                f"ID: {people['ID']} || Name: {people['Name']} || Age: {people['Age']} || Program: {people['Program']} || Status: {people['Status']}"
             ) # shows the student wanted
     else: # in case it does not exist
         print("Student not found!") # show this message
