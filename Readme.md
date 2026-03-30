@@ -35,8 +35,11 @@ Student successfully added!
 ```
 
 # How use the program
-To use the program, you will need to clone this repository [Repositorio]and then 
-
+To use the program, you will need to clone this repository -> [Repository](https://github.com/villalobosandres989-source/Student_Management_System.git) and then you will need to open the file in a code editor such as Visual Studio Code and then run the file called `Student_Management_system` in the terminal.
+### As shown in the example below:
+```
+/usr/bin/python3 /home/Coder/Prueba_desempeñ0/Student_Management_system.py
+```
 
 
 
